@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Mentoring | Odysseas Drosis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; line-height: 1.6; color:#333; }
+        header { background:#0d6efd; color:white; padding:2em 1em; text-align:center; }
+        header h1 { margin:0; font-size:2.2em; }
+        header p { margin:0.5em 0 0; font-size:1.1em; }
+        nav { background:#f8f9fa; display:flex; justify-content:center; padding:0.5em 0; }
+        nav a { margin:0 1em; text-decoration:none; color:#0d6efd; font-weight:500; }
+        section { padding:2em 1em; max-width:900px; margin:auto; }
+        .highlight-box { background:#e7f1ff; border-left:4px solid #0d6efd; padding:1em; margin:1em 0; border-radius:5px; }
+        h2 { color:#0d6efd; margin-top:0; }
+        ul { padding-left:1.2em; }
+        li { margin-bottom:0.5em; }
+        .cta { display:inline-block; background:#0d6efd; color:white; padding:0.8em 1.5em; border-radius:5px; text-decoration:none; margin-top:1em; transition:0.3s; }
+        .cta:hover { background:#0056b3; }
+        footer { background:#f1f1f1; text-align:center; padding:1em; font-size:0.9em; color:#555; }
+        @media(max-width:600px){ nav { flex-direction: column;} nav a { margin:0.5em 0; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AI Mentoring with Odysseas Drosis</h1>
+    <p>Personalized research mentoring for students aiming for top-tier universities</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#students">Students</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About the Mentor</h2>
+    <div class="highlight-box">
+        <p><strong>Odysseas Drosis</strong> – BSc Computer Science NTUA, MSc Cornell, PhD Candidate EPFL</p>
+        <p>AI Scientist at Kaizen Gaming, experienced in mentoring dozens of students with high success rates in AI research and top university placements.</p>
+    </div>
+</section>
+
+<section id="students">
+    <h2>Student Success & Publications</h2>
+    <div class="highlight-box">
+        <ul>
+            <li>"Detecting Cyberbullying in Social Media Platforms"</li>
+            <li>"AI-Based Prediction of Stock Market Trends"</li>
+            <li>"Generative Models for Healthcare Data Analysis"</li>
+            <li>"Physics-Inspired Neural Networks for Material Science"</li>
+        </ul>
+        <p>Over 50 students mentored, many achieving publications or acceptance to top-tier universities.</p>
+    </div>
+</section>
+
+<section id="programs">
+    <h2>Mentoring Programs</h2>
+    <ul>
+        <li><strong>Starter:</strong> 3–5 hours – Intro + project guidance</li>
+        <li><strong>Standard:</strong> 10 hours – Full research project guidance</li>
+        <li><strong>Premium:</strong> 20 hours – Research + Publication support</li>
+    </ul>
+    <a href="https://calendly.com/" class="cta"><i class="fas fa-calendar-check"></i> Book Free Session</a>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <ul>
+        <li><i class="fas fa-envelope"></i> Email: <a href="mailto:info@aimentoring.com">info@aimentoring.com</a></li>
+        <li><i class="fas fa-globe"></i> Website: <a href="https://www.aimentoring.com">www.aimentoring.com</a></li>
+        <li><i class="fas fa-calendar-check"></i> Schedule a free session: <a href="https://calendly.com/">Calendly link</a></li>
+    </ul>
+</section>
+
+<footer>
+    &copy; 2025 AI Mentoring | Odysseas Drosis
+</footer>
+
+</body>
+</html>
